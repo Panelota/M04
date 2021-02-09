@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BancNacional SYSTEM "BancNacional.dtd">
+<BancNacional>
+    <compte dni="_34124">
+      <titular></titular>
+      <adreca></adreca>
+      <numero_compte_corrent></numero_compte_corrent>
+      <saldo moneda="euros">1000</saldo>
+    </compte>
+    <compte dni="_34235">
+      <titular></titular>
+      <adreca></adreca>
+      <numero_compte_corrent></numero_compte_corrent>
+      <saldo moneda="dòlars">0</saldo>
+      <deutor></deutor>
+    </compte>
+</BancNacional>

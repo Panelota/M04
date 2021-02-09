@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concesionari SYSTEM "e4.dtd">
+
+<concesionari>
+    <segonama>
+      <codi>9876</codi>
+      <marca>SEAT</marca>
+      <model>LEON</model>
+      <potencia>120</potencia>
+      <places>5</places>
+      <portes>5</portes>
+    </segonama>
+    <segonama>
+      <codi>5463</codi>
+      <marca>TOYOTA</marca>
+      <model>AURIS</model>
+      <potencia>136</potencia>
+      <places>5</places>
+      <portes>5</portes>
+    </segonama>
+    <segonama>
+      <codi>3215</codi>
+      <marca>TOYOTA</marca>
+      <model>CELICA</model>
+      <potencia>280</potencia>
+      <places>2</places>
+      <portes>3</portes>
+    </segonama>
+    <segonama>
+      <codi>3987</codi>
+      <marca>FORD</marca>
+      <model>MUSTANG</model>
+      <potencia>350</potencia>
+      <places>5</places>
+      <portes>5</portes>
+    </segonama>
+</concesionari>

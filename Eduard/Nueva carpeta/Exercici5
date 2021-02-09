@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE noticies [
+<!ELEMENT noticies (noticia*)>
+<!ELEMENT noticia (titol,subtitol,contingut)>
+<!ELEMENT titol (#PCDATA)>
+<!ATTLIST noticia subtitol CDATA #REQUIRED>
+<!ELEMENT contingut (#PCDATA)>
+]>
+<noticies>
+  <noticia subtitol='Tendencias 2017/2018 para Otoño y Invierno'>
+    <titol><![CDATA[C&A Moda]]></titol>
+    <contingut><![CDATA[Incluso cuando los días se "vuelven más cortos", con estas tendencias siempre
+estará bien equipado para 'cualquier' tipo de clima y seguirá estando completamente
+de moda. Aquí > podrá ver toda la moda para este Otoño e Invierno.]]></contingut>
+  </noticia>
+</noticies>

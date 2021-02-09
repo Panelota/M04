@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<universidad nombre="Universidad Politécnica de Madrid">
+  <departamento nombre="Departamento de Ingeniería y Arquitecturas Telemáticas">  
+    <director>
+      <nombre>Lourdes López Santidrián</nombre>
+      <correos>
+          <correo>llopez@diatel.upm.es</correo>
+      </correos>
+      <despacho>4312</despacho>
+    </director>
+    <personal>
+      <nombre>Justo Carracedo Gallardo</nombre>
+      <correos>
+          <correo>carracedo@diatel.upm.es</correo>
+          <correo>justo@diatel.upm.es</correo>
+      </correos>
+    </personal>
+    <personal>
+      <nombre>Jesús Moreno Blázquez</nombre>
+      <correos>
+          <correo>jmoreno@diatel.upm.es</correo>
+      </correos>
+      <despacho>4305</despacho>
+      <telefono>+34 91 336 5510</telefono>
+    </personal>
+    <personal>
+      <nombre>Sara Lana Serrano</nombre>
+      <correos>
+          <correo>slana@diatel.upm.es</correo>
+      </correos>
+      <despacho>4306</despacho>
+      <telefono>+34 91 336 7821</telefono>
+    </personal>
+    <personal>
+      <nombre>Gregorio Rubio Cifuentes</nombre>
+      <correos>
+          <correo>grubio@diatel.upm.es</correo>
+      </correos>
+    </personal>
+    <personal>
+      <nombre>Manuel Álvarez Sol</nombre>
+      <correos>
+          <correo>malvarez@diatel.upm.es</correo>
+      </correos>
+      <despacho>4307</despacho>
+    </personal>
+  </departamento>
+  <departamento nombre="Departamento de Ingeniería Audiovisual y Comunicaciones">  
+    <director>
+      <nombre>Rafael Herrandón Díez</nombre>
+      <correos>
+          <correo>herrandon@diac.upm.es</correo>
+      </correos>
+    </director>
+    <personal>
+      <nombre>Florentino Jiménez Muñoz</nombre>
+      <correos>
+          <correo>fjimenez@diac.upm.es</correo>
+      </correos>
+    </personal>
+  </departamento>
+    <departamento nombre="Sistemas Electrónicos y de Control">  
+    <director>
+      <nombre>Jesús Ma. Arriaga García de Andoaín</nombre>
+      <correos>
+          <correo>herrandon@diac.upm.es</correo>
+      </correos>
+    </director>
+    <personal>
+      <nombre>Florentino Jiménez Muñoz</nombre>
+      <correos>
+          <correo>jarriagua@sec.upm.es</correo>
+      </correos>
+    </personal>
+    <personal>
+      <nombre>Juan Blanco Cotano</nombre>
+      <correos>
+          <correo>jblanco@sec.upm.es</correo>
+      </correos>
+    </personal>
+  </departamento>
+</universidad>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comunitat [
+<!ELEMENT comunitat (vei, president, secretari)>
+<!ELEMENT vei (id,nom,telefon,pis,formaPagament)>
+<!ATTLIST comunitat president CDATA #REQUIRED>
+<!ATTLIST comunitat secretari CDATA #REQUIRED>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>
+<!ELEMENT pis (#PCDATA)>
+<!ELEMENT formaPagament (#PCDATA)>
+]>
+<comunitat president="PRESIDENT" secretari="SECRETARI">
+    <vei>
+      <id>ID</id>
+      <nom>NOM I COGNOMS</nom>
+      <telefon>TELEFON</telefon>
+      <pis>PIS</pis>
+      <formaPagament>Forma de pagament</formaPagament>
+    </vei>
+</comunitat>

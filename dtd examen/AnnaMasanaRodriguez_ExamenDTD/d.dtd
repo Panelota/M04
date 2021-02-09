@@ -1,0 +1,21 @@
+<!ELEMENT TheBigBandTheory (info-gral,personatges, temporades)>
+<!ELEMENT info-gral (genere, pais, director+, canal, numtemporades, format-imatge+)>
+<!ELEMENT genere (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT canal (#PCDATA)>
+<!ELEMENT numtemporades (#PCDATA)>
+<!ELEMENT format-imatge (#PCDATA)>
+<!ELEMENT personatges (personatge+)>
+<!ELEMENT personatge (nom, actor)>
+<!ATTLIST personatge idP ID #REQUIRED>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT actor (#PCDATA)>
+<!ELEMENT temporades (temporada+)>
+<!ELEMENT temporada (data-inici, milions-espectadors)>
+<!ATTLIST temporada 
+numT ID #REQUIRED
+estrella IDREF #IMPLIED
+>
+<!ELEMENT data-inici (#PCDATA)>
+<!ELEMENT milions-espectadors (#PCDATA)>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE zoo SYSTEM "zoo.dtd">
+
+<zoo>
+   <animals>
+     <animal titularitat="public" xipUnic="a1234">
+       <nomEspecie>
+         El nom és: Pingüins
+       </nomEspecie>
+       <cuidador>
+         <nomCuidador>
+           El nom és: Marta
+         </nomCuidador>
+         <nomActivitat nombreEspectadors="30">
+           Jugar a la pilota
+         </nomActivitat>
+       </cuidador>
+       <perillositat>SI</perillositat>
+       <carnivor></carnivor>
+     </animal>
+     <animal titularitat="privat" xipUnic="a12345" mare="a1234">
+       <nomEspecie>
+         El nom és: Ossos polars
+       </nomEspecie>
+       <cuidador>
+         <nomCuidador>
+           El nom és: Guillem
+         </nomCuidador>
+         <dataInici>
+           2008-02-04
+         </dataInici>
+       </cuidador>
+       <perillositat>SI</perillositat>
+     </animal>
+    </animals>
+</zoo>

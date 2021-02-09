@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE llibres SYSTEM "e1.dtd">
+
+<llibres>
+    <llibre>
+      <codi></codi>
+      <titol></titol>
+      <editorial></editorial>
+      <edicio></edicio>
+      <isbn>I</isbn>
+      <pagines></pagines>
+      <autor></autor>
+    </llibre>
+</llibres>

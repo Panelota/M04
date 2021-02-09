@@ -1,0 +1,8 @@
+<!ELEMENT concesionari (segonama+)>
+<!ELEMENT segonama (codi, marca, model, potencia, places, portes)>
+<!ELEMENT codi (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT potencia (#PCDATA)>
+<!ELEMENT places (#PCDATA)>
+<!ELEMENT portes (#PCDATA)>

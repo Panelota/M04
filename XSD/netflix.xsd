@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="canal">
+    <xs:complexType>
+      <xs:sequence>
+      
+      <xs:element name="series">
+      <xs:complexType>
+        <xs:sequence>
+          <xs:element name="serie" maxOccurs="unbounded">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:attribute name="idioma" type="xs:string"/>
+                <xs:attribute name="valoracio" type="xs:string"/>
+                       <xs:element name="titulo" type="xs:string"/>
+                       <xs:element name="año" type="xs:string"/>
+                        <xs:element name="reparto" type="xs:string"/>
+                       <xs:element name="capitulo" maxOccurs="unbounded"/>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+    
+      <xs:element name="peliculas">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:attribute name="idioma" type="xs:string"/>
+                <xs:attribute name="valoracio" type="xs:string"/>
+                       <xs:element name="titulo" type="xs:string"/>
+                       <xs:element name="año" type="xs:string"/>
+                        <xs:element name="reparto"/>
+                             <xs:complexType>
+                                <xs:all>
+                                  <xs:element name="actriu" type="xs:string"/>
+                                  <xs:element name="actor" type="xs:string" maxOccurs="unbounded"/>
+                                </xs:all>
+                              </xs:complexType>
+                            </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      <xs:attribute name="nom" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

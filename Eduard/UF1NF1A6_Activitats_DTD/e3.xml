@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comunitat SYSTEM "e3.dtd">
+
+<comunitat>
+    <vei>
+      <codi>12</codi>
+      <nom>Maria</nom>
+      <cognom>López Perez</cognom>
+      <portal>12</portal>
+      <pislletra>2A</pislletra>
+      <comptecorrent>12341234120123456789</comptecorrent>
+      <carrec>President</carrec>
+   </vei>
+    <vei>
+      <codi>19</codi>
+      <nom>Pep</nom>
+      <cognom>Armengol Gimenez</cognom>
+      <portal>12</portal>
+      <pislletra>3B</pislletra>
+      <comptecorrent>12341234120123498765</comptecorrent>
+      <carrec>Vicepresident</carrec>
+   </vei>
+    <vei>
+      <codi>2</codi>
+      <nom>Arnau</nom>
+      <cognom>Carbajal Herrera</cognom>
+      <portal>12</portal>
+      <pislletra>1A</pislletra>
+      <comptecorrent>12341234120123457689</comptecorrent>
+      <carrec></carrec>
+   </vei>
+    <vei>
+      <codi>21</codi>
+      <nom>Helena</nom>
+    <cognom>Mont Picard</cognom>
+      <portal>12</portal>
+      <pislletra>4C</pislletra>
+      <comptecorrent>12341234120123456798</comptecorrent>
+      <carrec></carrec>
+   </vei>
+</comunitat>

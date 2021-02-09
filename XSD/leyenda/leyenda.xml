@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<leyenda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="leyenda.xsd">
+   <dragones>
+     <dragon>
+       <ataqueDragon porcentaje="30">
+          <poder>3</poder>
+       </ataqueDragon>
+       <princesaHechicera>
+         <nombrePrincesa>
+           Sonja
+         </nombrePrincesa>
+         <colorMagia color="red">
+            <luminosidad>8</luminosidad>         
+         </colorMagia>
+         <nombreRosaConjuros cantidadConjuros="10">
+            <calidadConjuros>6</calidadConjuros>
+         </nombreRosaConjuros>
+       </princesaHechicera>
+     </dragon>
+     <dragon>
+       <ataqueDragon porcentaje="80">
+          <poder>8</poder>
+       </ataqueDragon>
+       <princesaHechicera>
+         <colorMagia color="negre">
+            <luminosidad>0</luminosidad>
+         </colorMagia>
+         <nombrePrincesa>
+           Morgana
+         </nombrePrincesa>
+       </princesaHechicera>
+     </dragon>
+   </dragones>
+   <caballeros>
+     <caballero>
+       <defensaCaballero porcentaje="60">
+           <fuente>hierro</fuente>
+       </defensaCaballero>
+     </caballero>
+     <caballero>
+       <defensaCaballero porcentaje="50">
+            <fuente>hierro</fuente>
+       </defensaCaballero>
+     </caballero>
+     <caballero>
+       <defensaCaballero porcentaje="95">
+            <fuente>hierro</fuente>
+       </defensaCaballero>
+     </caballero>
+   </caballeros>
+</leyenda>

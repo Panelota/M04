@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ACTIVITATS>
+
+<ACTIVITAT1>
+
+<efemerides>
+  <efemeride>
+    <hecho>Arribada de l’home a la lluna</hecho>
+    <fecha>20 de juliol del 1969, América</fecha>
+  </efemeride>
+  <efemeride>
+    <hecho>Arribada de Colón a América</hecho>
+    <fecha>12 d’octubre de 1492, América</fecha>
+  </efemeride>
+  <efemeride>
+    <hecho>Diada de Catalunya</hecho>
+    <fecha>11 de setembre de 1714, Catalunya</fecha>
+  </efemeride>
+  <efemeride>
+    <hecho>Arribada de Robert Peary al Pol Nort</hecho>
+    <fecha>6 d’abril 1909, Pol Nort</fecha>
+  </efemeride>
+</efemerides>
+
+</ACTIVITAT1>
+
+<ACTIVITAT2>
+
+<aeropuertos>
+  <aeropuerto>
+    <nombre>Madrid Barajas</nombre>
+    <codigo>MBES</codigo>
+    <cerrado>Si/No</cerrado>
+  </aeropuerto>
+  <aeropuerto>
+    <nombre>Berlín Schönefeld</nombre>
+    <codigo>SFXGER</codigo>
+    <cerrado>Si/No</cerrado>
+  </aeropuerto>
+    <aeropuerto>
+    <nombre>Berlín Tempelhof</nombre>
+    <codigo>THFGER</codigo>
+    <cerrado>Si/No</cerrado>
+  </aeropuerto>
+  <aeropuerto>
+    <nombre>París Charles de Gaulle</nombre>
+    <codigo>PCGFR</codigo>
+    <cerrado>Si/No</cerrado>
+  </aeropuerto>
+  <aeropuerto>
+    <nombre>Barcelona Josep Taradelles-El Prat </nombre>
+    <codigo>BJPES</codigo>
+    <cerrado>Si/No</cerrado>
+  </aeropuerto>
+</aeropuertos>
+
+</ACTIVITAT2>
+
+<ACTIVITAT3>
+
+<vuelos>
+  <vuelo>
+    <origen>Barcelona Josep Taradelles</origen>
+    <destino>El Prat  Madrid Barajas</destino>
+  </vuelo>
+  <vuelo>
+    <origen>Berlín Tempelhof</origen>
+    <destino>Madrid Barajas</destino>
+  </vuelo>
+  <vuelo>
+    <origen>Berlín Schönefeld</origen>
+    <destino>Barcelona Josep Taradelles-El Prat</destino>
+  </vuelo>
+</vuelos>
+
+
+</ACTIVITAT3>
+
+</ACTIVITATS>

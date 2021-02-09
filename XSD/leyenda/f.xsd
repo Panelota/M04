@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+                      <xs:simpleType name="percentatge">
+                        <xs:restriction base="xs:string">
+                          <xs:pattern value="[0-9]?[0-9]\s?%?"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+
+                      <xs:simpleType name="fechaNacimiento">
+                        <xs:restriction base="xs:string">
+                          <xs:pattern value="[0-3]?[0-9]/[0-1]?[0-9]/[1-2][0-9][0-9][0-9]|[1-2][0-9][0-9][0-9]-[0-1]?[0-9]-[0-3]?[0-9]"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+
+  <xs:element name="leyenda">
+    <xs:complexType>
+      <xs:sequence>
+
+        <xs:element name="dragones">
+          <xs:complexType>
+            <xs:sequence>
+
+              <xs:element name="dragon" maxOccurs="unbounded">
+                  <xs:complexType>
+                    <xs:sequence>
+
+                      <xs:element name="ataqueDragon">
+                          <xs:complexType>
+                            <xs:sequence>
+                              <xs:element name="poder" type="xs:string"/>
+                            </xs:sequence>
+                            <xs:attribute name="porcentaje" type="percentatge"/>
+                          </xs:complexType>
+                        </xs:element>
+
+                        <xs:element name="princesaHechicera">
+                            <xs:complexType>
+                              <xs:all>
+                                <xs:element name="nombrePrincesa" type="xs:string"/>
+                                 <xs:element name="nacimiento" type="fechaNacimiento"/>
+
+                                 <xs:element name="colorMagia">
+                                    <xs:complexType>
+                                      <xs:sequence>
+                                        <xs:element name="luminosidad" type="xs:string"/>
+                                      </xs:sequence>
+                                     <xs:attribute name="color">
+                                        <xs:simpleType>
+                                          <xs:restriction base="xs:string">
+                                            <xs:pattern value="negre|vermell|verd|blanc"/>
+                                          </xs:restriction>
+                                        </xs:simpleType>
+                                        </xs:attribute>
+                                    </xs:complexType>
+                                  </xs:element>
+
+                                    <xs:element name="nombreRosaConjuros" minOccurs="0">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="calidadConjuros" type="percentatge"/>
+                                          </xs:sequence>
+                                           <xs:attribute name="cantidadConjuros"/>
+                                        </xs:complexType>
+                                      </xs:element>
+
+                              </xs:all>
+                            </xs:complexType>
+                          </xs:element>
+
+                    </xs:sequence>
+                                  <xs:attribute name="nombre">
+                                    <xs:simpleType>
+                                      <xs:restriction base="xs:string">
+                                        <xs:pattern value="[A-Z][a-z0-9]*[A-Z]"/>
+                                      </xs:restriction>
+                                    </xs:simpleType>
+                                  </xs:attribute>
+                  </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+  
+        <xs:element name="caballeros">
+          <xs:complexType>
+            <xs:sequence>
+
+              <xs:element name="caballero" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+
+                    <xs:element name="defensaCaballero">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="fuente" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="porcentaje" type="percentatge"/>
+                      </xs:complexType>
+                    </xs:element>
+
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
