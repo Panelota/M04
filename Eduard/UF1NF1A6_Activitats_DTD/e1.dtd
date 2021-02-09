@@ -1,0 +1,9 @@
+<!ELEMENT llibres (llibre+)>
+<!ELEMENT llibre (codi,titol,editorial,edicio,isbn,pagines,autor)>
+<!ELEMENT codi (#PCDATA)>
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT edicio (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT pagines (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>

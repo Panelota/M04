@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<horari>
+  <dia nom="dilluns">
+    <assignatura>
+      <nom>Sistemes informàtics</nom>
+      <horainici>15:30</horainici>
+      <horafi>17:30</horafi>
+    </assignatura>
+    <assignatura>
+      <nom>Base de dades</nom>
+      <horainici>17:30</horainici>
+      <horafi>20:00</horafi>
+    </assignatura>
+    <assignatura>
+      <nom>Programació</nom>
+      <horainici>20:00</horainici>
+      <horafi>22:00</horafi>
+    </assignatura>
+  </dia>
+  <dia nom="dimarts">
+    <assignatura>
+      <nom>Tutoria</nom>
+      <horainici>15:30</horainici>
+      <horafi>16:30</horafi>
+    </assignatura>
+    <assignatura>
+      <nom>Base de dades</nom>
+      <horainici>16:30</horainici>
+      <horafi>18:30</horafi>
+    </assignatura>
+    <assignatura>
+      <nom>Llenguatge de marques</nom>
+      <horainici>19:00</horainici>
+      <horafi>22:00</horafi>
+    </assignatura>
+  </dia>
+  <dia nom="dimecres">
+    <assignatura>
+      <nom>FOL</nom>
+      <horainici>15:30</horainici>
+      <horafi>16:30</horafi>
+    </assignatura>
+    <assignatura>
+      <nom>Programació</nom>
+      <horainici>16:30</horainici>
+      <horafi>17:30</horafi>
+    </assignatura>
+    <assignatura>
+      <nom>Llenguatge de marques</nom>
+      <horainici>17:30</horainici>
+      <horafi>20:00</horafi>
+    </assignatura>
+    <assignatura>
+      <nom>Sistemes informàtics</nom>
+      <horainici>21:00</horainici>
+      <horafi>22:00</horafi>
+    </assignatura>
+  </dia>
+  <dia nom="dijous">
+    <assignatura>
+      <nom>FOL</nom>
+      <horainici>15:30</horainici>
+      <horafi>16:30</horafi>
+    </assignatura>
+    <assignatura>
+      <nom>Programació</nom>
+      <horainici>16:30</horainici>
+      <horafi>20:00</horafi>
+    </assignatura>
+    <assignatura>
+      <nom>EIE</nom>
+      <horainici>20:00</horainici>
+      <horafi>22:00</horafi>
+    </assignatura>
+  </dia>
+  <dia nom="divendres">
+    <assignatura>
+      <nom>Sistemes informàtics</nom>
+      <horainici>15:30</horainici>
+      <horafi>16:30</horafi>
+    </assignatura>
+    <assignatura>
+      <nom>Base de dades</nom>
+      <horainici>16:30</horainici>
+      <horafi>17:30</horafi>
+    </assignatura>
+    <assignatura>
+      <nom>Llenguatge de marques</nom>
+      <horainici>17:30</horainici>
+      <horafi>18:30</horafi>
+    </assignatura>
+  </dia>
+</horari>

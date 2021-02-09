@@ -1,0 +1,9 @@
+<!ELEMENT comunitat (vei+)>
+<!ELEMENT vei (codi, nom, cognom, portal, pislletra, comptecorrent, carrec)>
+<!ELEMENT codi (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT cognom (#PCDATA)>
+<!ELEMENT portal (#PCDATA)>
+<!ELEMENT pislletra (#PCDATA)>
+<!ELEMENT comptecorrent (#PCDATA)>
+<!ELEMENT carrec (#PCDATA)>

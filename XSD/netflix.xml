@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<canal nom="netflix" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="netflix.xsd">
+      <series>
+            <serie idioma="JAP" valoracio="3">
+                  <titulo>Ataque a los titanes</titulo>
+                  <año>2015</año>
+                  <reparto></reparto>
+                  <capitulo/>
+                  <capitulo/>
+            </serie>
+            <serie  idioma="EN" valoracio="5">
+                  <titulo>The end of the fuck&apos;g world</titulo>
+                  <año>2017</año>
+                  <reparto></reparto>
+                  <capitulo/>
+                  <capitulo/>
+                  <capitulo/>
+                  <capitulo/>
+                  <capitulo/>
+                  <capitulo/>
+            </serie>
+      </series>
+      <peliculas>
+            <pelicula idioma="ES" valoracio="5">
+                  <titulo>Bandersnach</titulo>
+                  <año>2018</año>
+                  <reparto>
+                        <actor>a</actor>
+                        <actriz>d</actriz>
+                  </reparto>
+            </pelicula>
+            <pelicula idioma="EN" valoracio="1">
+                  <titulo>Lucas &apos; CO</titulo>
+                  <año>2010</año>
+                  <reparto>
+                    <actriz>e</actriz>
+                    <actor>f</actor>
+                  </reparto>
+            </pelicula>
+      </peliculas>
+</canal>

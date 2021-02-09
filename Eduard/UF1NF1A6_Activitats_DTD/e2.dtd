@@ -1,0 +1,9 @@
+<!ELEMENT taules (alumne+,cursa+,uf+)>
+<!ELEMENT alumne (dni,nom,cognom)>
+<!ELEMENT cursa (dni,codi)>
+<!ELEMENT uf (codi,nom,hores)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT codi (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT cognom (#PCDATA)>
+<!ELEMENT hores (#PCDATA)>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnitedNations portalweb="http://www.un.org/" darreraActualitzacio="05-12-2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="c.xsd">
+    <events>
+        <event dia="05-12-2017">
+            <nom>Dia mundial del suelo</nom>
+            <descripcio>Las actividades que se organizan con motivo del Día Mundial del Suelo tienen por objetivo divulgar la importancia de la calidad de los suelos para la seguridad alimentaria, el buen estado de los ecosistemas y el bienestar de la humanidad.</descripcio>
+            <causes>
+                <causa>Las actividades que se organizan con motivo del Día Mundial del Suelo tienen por objetivo divulgar la importancia de la calidad de los suelos para la seguridad alimentaria, el buen estado de los ecosistemas y el bienestar de la humanidad.</causa>
+                <causa>Unos 815 millones de personas sufren inseguridad alimentaria y aproximadamente 2000 millones no disponen de alimentos suficientemente nutritivos. Esta situación se podría mitigar mediante la gestión adecuada de los suelos.</causa>
+                <causa>El 95% de los alimentos provienen del suelo.</causa>
+                <causa>El 33% de los suelos del planeta están degradados.</causa>
+            </causes>
+            <paisosParticipants>
+                <pais>
+                    <organitzador>Centre of Functional Ecology, UNESCO Chair on Biodiversity and Conservation for a Sustainable Development, Science Museum of the University of Coimbra</organitzador>
+                    <nom>Portugal</nom>
+                    <dates>
+                        <data tipus="inici">5 December 17</data>
+                        <data tipus="fi">5 December 17</data>
+                    </dates>
+                    <location>Museu da Ciência da Universidade de Coimbra</location>
+                    <contact>Miguel ferreira</contact>
+                </pais>
+                <pais>
+                    <nom>Itàlia</nom>
+                    <organitzador>Consorzio Italiano Compostatori (CIC) - Valle Umbra Servizi Spa - Ordine dei Dottori Agronomi e Forestali di Perugia</organitzador>
+                    <dates>
+                        <data tipus="inici">5 December 17</data>
+                        <data tipus="fi">5 December 17</data>
+                    </dates>
+                    <location>FAO HQ, Rome, Italy</location>
+                    <web>http://www.fao.org/world-soil-day/en/</web>
+                    <contact>Isabelle verbeke</contact>
+                </pais>
+                <pais>
+                    <nom>Bèlgica</nom>
+                    <organitzador>IBGE Brussels</organitzador>
+                    <dates>
+                        <data tipus="inici">4 December 17</data>
+                        <data tipus="fi">6 December 17</data>
+                    </dates>
+                    <location>Brussels, Belgium</location>
+                    <web>http://www.worldsoilday2017.eu</web>
+                    <contact>Peggy koenig stephan bartke</contact>
+                </pais>
+                <pais>
+                    <nom>Polònia</nom>
+                    <organitzador>Soil Education Centre-Soil Museum, The Faculty of Forestry, The Faculty of Agriculture and Economics University of Agriculture in Krakow and Institute of Geography and Spatial Management Jagiellonian University in Cracow and Soil Science Society of Poland</organitzador>
+                    <dates>
+                        <data tipus="inici">5 December 17</data>
+                        <data tipus="fi">10 December 17</data>
+                    </dates>
+                    <location>Soil Education Centre - Soil Museum of the University of Agriculture in Krakow</location>
+                    <web>http://www.muzeumgleb.pl</web>
+                    <contact>Piotr pacanowski</contact>
+                </pais>
+            </paisosParticipants>
+        </event>
+    </events>
+</UnitedNations>

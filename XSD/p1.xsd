@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<!--tipus personalitzat de dades-->
+<xs:simpleType name="tallaPant">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="48|50|52|54|56|58|60|62|64|66"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="tallaAmericana">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="48|50|52|54|56|58|60|62|64|66"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="tallaJaqueta">
+  <xs:union memberTypes ="tallaPant tallaAmericana"/>
+</xs:simpleType>
+<!--                                                          -->
+
+  <xs:element name="persona">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="codi" type="xs:integer"/>
+        <xs:element name="nom" type="xs:string"/>
+        <xs:element name="cognom1" type="xs:string"/>     
+        <xs:element name="cognom2" type="xs:string"/>
+        <xs:element name="dni">
+          <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{8}[A-Z]"/>
+          </xs:restriction>
+          </xs:simpleType>
+          </xs:element>
+        <xs:element name="datanaixement">
+          <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{2}/[0-9]{2}/[0-9]{4}"/>
+          </xs:restriction>
+          </xs:simpleType>
+          </xs:element>
+        <xs:element name="curs" type="xs:integer"/>
+        <xs:element name="grup" type="xs:string"/>
+        <xs:element name="quota" type="xs:boolean"/>
+        <xs:element name="edat" type="xs:integer"/>
+        <xs:element name="telefon">
+          <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:pattern value="[0-9]{9}"/>
+          </xs:restriction>
+          </xs:simpleType>
+          </xs:element>
+        <xs:element name="tallaPantalons" type="tallaJaqueta"/>
+      </xs:sequence>
+      <xs:attribute name="dni" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

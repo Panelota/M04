@@ -1,0 +1,10 @@
+<!ELEMENT BancNacional (compte+)>
+<!ELEMENT compte (titular, adreca, mobil?, numero_compte_corrent,saldo, deutor?)>
+<!ELEMENT titular (#PCDATA)>
+<!ELEMENT adreca (#PCDATA)>
+<!ELEMENT mobil (#PCDATA)>
+<!ELEMENT numero_compte_corrent (#PCDATA)>
+<!ELEMENT saldo (#PCDATA)>
+<!ELEMENT deutor (#PCDATA)>
+<!ATTLIST compte dni ID #REQUIRED>
+<!ATTLIST saldo moneda (euros|dòlars) #REQUIRED>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fruiteria [
+<!ELEMENT fruiteria (producte*)>
+<!ELEMENT producte (codi, nom, productor, tipus, secció, estoc)>
+<!ELEMENT tipus (aliment, fragilitat, frigorific)>
+<!ELEMENT codi (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT productor (#PCDATA)>
+<!ELEMENT aliment (#PCDATA)>
+<!ELEMENT fragilitat (#PCDATA)>
+<!ELEMENT frigorific (#PCDATA)>
+<!ELEMENT seccio (#PCDATA)>
+<!ELEMENT estoc (#PCDATA)>
+]>
+
+<fruiteria>
+  <producte>
+    <codi>MDX</codi>
+    <nom>maduixes</nom>
+    <productor>Terra Km0</productor>
+    <tipus>
+      <aliment>si</aliment>
+      <fragilitat>3</fragilitat>
+      <frigorific>no</frigorific>
+    </tipus>
+    <seccio>fruita</seccio>
+    <estoc>0</estoc>
+</producte>
+<producte>
+    <codi>PRA</codi>
+    <nom>pera</nom>
+    <productor>Terra Km0</productor>
+    <tipus>
+      <aliment>si</aliment>
+      <fragilitat>2</fragilitat>
+      <frigorific>no</frigorific>
+    </tipus>
+    <seccio>fruita</seccio>
+    <estoc>30</estoc>
+</producte>
+<producte>
+    <codi>SUC</codi>
+    <nom>suc</nom>
+    <productor>Arbre Feliç</productor>
+    <tipus>
+      <aliment>si</aliment>
+      <fragilitat>1</fragilitat>
+      <frigorific>si</frigorific>
+    </tipus>
+    <seccio>altres</seccio>
+    <estoc>20</estoc>
+</producte>
+</fruiteria>

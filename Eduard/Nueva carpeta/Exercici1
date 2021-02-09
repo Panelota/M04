@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE llibres [
+<!ELEMENT llibres (llibre*)>
+<!ELEMENT llibre (titol,autors,editorial,dataDePublicacio,ISBN,numPagines)>
+<!ELEMENT autors (autor+)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT dataDePublicacio (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT numPagines (#PCDATA)>
+]>
+<llibres>
+   <llibre>
+      <titol>TÍTOL</titol>  
+      <autors>
+        <autor>AUTOR</autor>
+      </autors>
+      <editorial>EDITORIAL</editorial>
+      <dataDePublicacio>DATA DE PUBLICACIÓ</dataDePublicacio>
+      <ISBN>ISBN</ISBN>
+      <numPagines>NÚMERO DE PÀGINES</numPagines>
+    </llibre>
+</llibres>

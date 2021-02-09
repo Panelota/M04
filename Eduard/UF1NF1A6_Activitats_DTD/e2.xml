@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE taules SYSTEM "e2.dtd">
+
+<taules>
+    <alumne>
+      <dni>44123456</dni>
+      <nom>dani</nom>
+      <cognom>tosc</cognom>
+    </alumne>
+    <alumne>
+      <dni>46654987</dni>
+      <nom>anna</nom>
+      <cognom>mir</cognom>
+    </alumne>
+    <alumne>
+      <dni>45789456</dni>
+      <nom>joel</nom>
+      <cognom>pons</cognom>
+    </alumne>
+    <cursa>
+      <dni>44123456</dni>
+      <codi>1</codi>
+    </cursa>
+   <cursa>
+      <dni>44123456</dni>
+      <codi>2</codi>
+    </cursa>
+   <cursa>
+      <dni>44123456</dni>
+      <codi>3</codi>
+    </cursa>
+   <cursa>
+      <dni>46654987</dni>
+      <codi>3</codi>
+    </cursa>
+    <cursa>
+      <dni>45789456</dni>
+      <codi>1</codi>
+    </cursa>
+    <uf>
+      <codi>1</codi>
+      <nom>M1</nom>
+      <hores>198</hores>
+    </uf>
+    <uf>
+      <codi>2</codi>
+      <nom>M2</nom>
+      <hores>165</hores>
+    </uf>
+    <uf>
+      <codi>3</codi>
+      <nom>M3</nom>
+      <hores>165</hores>
+    </uf>
+</taules>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comunitat [
+<!ELEMENT creditors (NIF, nom, cognom, telefon, reparacio)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT cognom (#PCDATA)>
+<!ELEMENT NIF (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>
+<!ELEMENT reparacio (#PCDATA)>
+]>
+
+<comunitat>
+  <creditors>
+    <nom>NOM</nom>
+    <cognom>COGNOM</cognom>
+    <NIF>NIF</NIF>
+    <telefon>TELEFON</telefon>
+    <reparacio>REPARACIÓ</reparacio>
+  </creditors>
+</comunitat>

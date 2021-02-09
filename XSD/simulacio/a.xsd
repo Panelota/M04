@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="UnitedNations">
+    <xs:complexType>
+      <xs:sequence>
+
+        <xs:element name="events">
+          <xs:complexType>
+            <xs:sequence>
+
+              <xs:element name="event">
+                <xs:complexType>
+                  <xs:sequence>
+
+                    <xs:element name="nom" type="xs:string"/>
+                    <xs:element name="descripcio" type="xs:string"/>
+
+                      <xs:element name="causes">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="causa" type="xs:string" maxOccurs="unbounded"/>
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+
+                      <xs:element name="paisosParticipants">
+                        <xs:complexType>
+                          <xs:sequence>
+
+                            <xs:element name="pais" maxOccurs="unbounded">
+                              <xs:complexType>
+                                <xs:all>
+                                  <xs:element name="organitzador" type="xs:string"/>
+                                  <xs:element name="nom" type="xs:string"/>
+                                    <xs:element name="dates">
+                                      <xs:complexType>
+                                        <xs:sequence>
+                                          <xs:element name="data" maxOccurs="unbounded">
+                                              <xs:complexType>
+                                                  <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                      <xs:attribute name="tipus" type="xs:string"/>
+                                                    </xs:extension>
+                                                  </xs:simpleContent>
+                                                </xs:complexType>
+                                          </xs:element>
+                                        </xs:sequence>
+                                      </xs:complexType>
+                                    </xs:element>
+                                  <xs:element name="location" type="xs:string"/>
+                                  <xs:element name="web" type="xs:string" minOccurs="0"/>
+                                  <xs:element name="contact" type="xs:string"/>
+                                </xs:all>
+                              </xs:complexType>
+                            </xs:element>
+
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+
+                  </xs:sequence>
+                  <xs:attribute name="dia" type="xs:string"/>
+                </xs:complexType>
+
+              </xs:element>
+
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+      <xs:attribute name="portalweb" type="xs:string"/>
+      <xs:attribute name="darreraActualitzacio" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

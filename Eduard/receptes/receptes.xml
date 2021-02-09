@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recetas [
+<!ELEMENT recetas (receta+)>
+<!ELEMENT receta (codi, nom, descripcio, ingredientes, proceso)>
+<!ELEMENT codi (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT descripcio (#PCDATA)>
+<!ELEMENT ingredientes (ingrediente+)>
+<!ELEMENT ingrediente (cantidad, unidad, nombre)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT unidad (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT proceso (paso+)>
+<!ELEMENT paso (#PCDATA)>
+<!ATTLIST paso
+          numero CDATA #REQUIRED>
+ ]>
+<recetas>
+   <receta>
+      <codi>3210</codi>
+      <nom>Pisto casero</nom>
+      <descripcio>Receta de verudaras para 6 personas</descripcio>
+      <ingredientes>
+        <ingrediente>
+          <cantidad>2</cantidad>
+          <unidad>Kg</unidad>
+          <nombre>Tomates</nombre>
+        </ingrediente>
+        <ingrediente>
+          <cantidad>2</cantidad>
+          <unidad>unidades</unidad>
+          <nombre>Calabacines</nombre>
+        </ingrediente>
+        <ingrediente>
+          <cantidad>2</cantidad>
+          <unidad>unidades</unidad>
+          <nombre>Cebollas</nombre>
+        </ingrediente>
+        <ingrediente>
+          <cantidad>1</cantidad>
+          <unidad>unidad</unidad>
+          <nombre>Pimiento</nombre>
+        </ingrediente>
+        <ingrediente>
+          <cantidad>1</cantidad>
+          <unidad>pizca</unidad>
+          <nombre>Sal</nombre>
+        </ingrediente>
+        <ingrediente>
+          <cantidad>1</cantidad>
+          <unidad>pizca</unidad>
+          <nombre>Aceite</nombre>
+        </ingrediente>
+      </ingredientes>
+      <proceso>
+        <paso numero="1">Lavamos y vamos cortando sobre una cazuela los tomates en trozos no muy grandes.</paso>
+        <paso numero="2">Regamos con un hilo de aceite de oliva virgen extra y un poquito de sal.</paso>
+        <paso numero="3">Ponemos la cazuela al fuego y dejamos que se vaya haciendo el tomate a fuego lento durante 30 minutos. Removiendo de vez en cuando para que no se nos pegue el tomate.</paso>
+        <paso numero="4">En lo que se hace el tomate, lavamos y picamos en trozos no muy pequeños el pimiento y la cebolla, que habremos pelado con anterioridad.</paso>
+        <paso numero="5">Colocamos una sartén sobre el fuego y echamos 5 cucharadas de aceite de oliva virgen extra.</paso>
+        <paso numero="6">Incorporamos la cebolla y el pimiento, semi-tapamos, y dejamos hacer a fuego medio-bajo durante 20 minutos, removiendo de vez en cuando.</paso>
+        <paso numero="7">Pelamos los calabacines cortamos en láminas gruesas y estas a su vez en bastones.</paso>
+        <paso numero="8">Estos bastones les cortamos en forma de cubo.</paso>
+        <paso numero="9">Echamos los trozos de calabacín en un cazo, cubrimos con agua y sazonamos a nuestro gusto.</paso>
+        <paso numero="10">Ponemos el cazo de los calabacines a cocer durante 10 minutos a fuego medio. El calabacín no tiene que estar muy cocido ni deshecho.</paso>
+        <paso numero="11">Por eso cuando veas que está blando, retiramos del fuego, escurrimos y reservamos.</paso>
+        <paso numero="12">Una vez tengamos listo el tomate frito, pasamos por un pasa puré, nunca por la batidora o Thermomix por que se nos quedaría de un color rosado nada que ver con el color rojo característico del pisto, directamente sobre una cazuela.</paso>
+        <paso numero="13">Añadimos las verduras pochadas y el calabacín cocido, mezclamos suavemente.</paso>
+        <paso numero="14">Llevamos nuevamente al fuego (medio-bajo), en cuando empiece a "burbujear", rectificamos el punto de sal, si hiciera falta. Si estuviese algo ácido, añadiríamos una pizca de azúcar (blanco o moreno).</paso>
+        <paso numero="15">Dejamos hacer durante otros cinco o diez minutos.</paso>
+        <paso numero="16">Retiramos, dejamos templar, servimos y degustamos con unos huevos fritos, bonito a la plancha, un poco de pasta fresca cocida, etc.</paso>
+      </proceso>
+   </receta>
+      <receta>
+      <codi>3356</codi>
+      <nom>Brocoli gratinado con jamón</nom>
+      <descripcio>Receta de verudara y jamón para 4 personas</descripcio>
+      <ingredientes>
+        <ingrediente>
+          <cantidad>2</cantidad>
+          <unidad>ramilletes</unidad>
+          <nombre>Brocoli</nombre>
+        </ingrediente>
+        <ingrediente>
+          <cantidad>750</cantidad>
+          <unidad>ml</unidad>
+          <nombre>Leche</nombre>
+        </ingrediente>
+        <ingrediente>
+          <cantidad>125</cantidad>
+          <unidad>gr</unidad>
+          <nombre>Jamón serrano en dados</nombre>
+        </ingrediente>
+        <ingrediente>
+          <cantidad>1</cantidad>
+          <unidad>pizca</unidad>
+          <nombre>nuez moscada</nombre>
+        </ingrediente>
+        <ingrediente>
+          <cantidad>50</cantidad>
+          <unidad>g</unidad>
+          <nombre>Mantequilla</nombre>
+        </ingrediente>
+        <ingrediente>
+          <cantidad>40</cantidad>
+          <unidad>gr</unidad>
+          <nombre>Harina</nombre>
+        </ingrediente>
+        <ingrediente>
+          <cantidad>100</cantidad>
+          <unidad>gr</unidad>
+          <nombre>Queso Castellano</nombre>
+        </ingrediente>
+        <ingrediente>
+          <cantidad>40</cantidad>
+          <unidad>gr</unidad>
+          <nombre>Jamón serrano</nombre>
+        </ingrediente>
+        <ingrediente>
+          <cantidad>1</cantidad>
+          <unidad>pizca</unidad>
+          <nombre>Pimienta</nombre>
+        </ingrediente>
+        <ingrediente>
+          <cantidad>1</cantidad>
+          <unidad>pizca</unidad>
+          <nombre>Sal</nombre>
+        </ingrediente>
+        <ingrediente>
+          <cantidad>1</cantidad>
+          <unidad>chorrito</unidad>
+          <nombre>Aceite</nombre>
+        </ingrediente>
+      </ingredientes>
+      <proceso>
+        <paso numero="1">Echamos en una cazuela abundante agua y sal.</paso>
+        <paso numero="2">Ponemos al fuego</paso>
+        <paso numero="3">Escurrimos y reservamos.</paso>
+        <paso numero="4">Ponemos la leche a cocer en un cazo con un poco de nuez moscada, pimienta y sal. ¿La cantidad? a nuestro gusto..</paso>
+        <paso numero="5">Mientras empieza a hervir, cortamos el brócoli en ramilletes. El tronco le pelamos, cortamos la base, el resto en dados.</paso>
+        <paso numero="6">En cuanto empiece a hervir la leche especiada añadimos el brócoli y hervimos durante 10 minutos.</paso>
+        <paso numero="7">Escurrimos el brócoli y colocamos sobre una fuente de horno.</paso>
+        <paso numero="8">Con la leche especiada prepararemos la bechamel. para ello vertemos una cucharadita de mantequilla en una sartén y otra de aceite de oliva. Añadimos una cucharada de harina y el jamón cortado en dados.</paso>
+        <paso numero="9">Removemos bien con unas varillas durante un minuto.</paso>
+        <paso numero="10">Incorporamos la leche especia y removemos nuevamente hasta conseguir una bechamel sin grumos.</paso>
+        <paso numero="11">Echamos la bechamel sobre el brócoli, espolvoreamos con el queso castellano curado (rallado o en lascas) y gratinamos</paso>
+        <paso numero="12">Cuando tenga el gratinado un color dorado, sacamos.</paso>
+        <paso numero="13">Servimos y degustamos.</paso>
+      </proceso>
+   </receta>
+</recetas>

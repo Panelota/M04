@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<persona dni="65849721M" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="p1.xsd">
+    <codi>27</codi>
+    <nom>Antonia</nom>
+    <cognom1>Perez</cognom1>
+    <cognom2>Lopez</cognom2>
+    <dni>65849721M</dni>
+    <datanaixement>05/02/1990</datanaixement>
+    <curs>1</curs>
+    <grup>a</grup>
+    <quota>true</quota>
+    <edat>22</edat>
+    <telefon>658974521</telefon>
+    <tallaPantalons>50</tallaPantalons>
+</persona>

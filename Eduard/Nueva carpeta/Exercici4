@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE noticies [
+<!ELEMENT noticies (noticia*)>
+<!ELEMENT noticia (titol,subtitol,contingut)>
+<!ELEMENT titol (#PCDATA)>
+<!ATTLIST noticia subtitol CDATA #REQUIRED>
+<!ELEMENT contingut (#PCDATA)>
+]>
+<noticies>
+  <noticia subtitol='Llamó "mala y envidiosa" a Inka Marti'>
+    <titol>Cayetana se arrepiente de la crítica a su nuera</titol>
+    <contingut>blablabla</contingut>
+  </noticia>
+</noticies>

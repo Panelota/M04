@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+        <xs:simpleType name ="url">
+          <xs:restriction base="xs:string">
+            <xs:pattern value="http://([a-z0-9-/\.])*"/>
+          </xs:restriction>
+        </xs:simpleType>
+
+        <xs:simpleType name ="data17">
+          <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]?[0-9]\s[A-Z][A-Za-z]{7}\s17"/>
+          </xs:restriction>
+        </xs:simpleType>
+
+        <xs:simpleType name ="datacorrecta">
+          <xs:restriction base="xs:string">
+            <xs:pattern value="[0-3][0-9]-[0-1][0-9]-[1-2][09][0-9][0-9]"/>
+          </xs:restriction>
+        </xs:simpleType>
+
+
+  <xs:element name="UnitedNations">
+    <xs:complexType>
+      <xs:sequence>
+
+        <xs:element name="events">
+          <xs:complexType>
+            <xs:sequence>
+
+              <xs:element name="event">
+                <xs:complexType>
+                  <xs:sequence>
+
+                    <xs:element name="nom" type="xs:string"/>
+                    <xs:element name="descripcio" type="xs:string"/>
+
+                      <xs:element name="causes">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="causa" type="xs:string" maxOccurs="unbounded"/>
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+
+                      <xs:element name="paisosParticipants">
+                        <xs:complexType>
+                          <xs:sequence>
+
+                            <xs:element name="pais" maxOccurs="unbounded">
+                              <xs:complexType>
+                                <xs:all>
+                                  <xs:element name="organitzador" type="xs:string"/>
+                                  <xs:element name="nom" type="xs:string"/>
+                                    <xs:element name="dates">
+                                      <xs:complexType>
+                                        <xs:sequence>
+                                          <xs:element name="data" maxOccurs="unbounded">
+                                              <xs:complexType>
+                                                  <xs:simpleContent>
+                                                    <xs:extension base="data17">
+                                                      <xs:attribute name="tipus" type="xs:string"/>
+                                                    </xs:extension>
+                                                  </xs:simpleContent>
+                                                </xs:complexType>
+                                          </xs:element>
+                                        </xs:sequence>
+                                      </xs:complexType>
+                                    </xs:element>
+                                  <xs:element name="location" type="xs:string"/>
+                                  <xs:element name="web" type="url" minOccurs="0"/>
+                                  <xs:element name="contact">
+                                    <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:pattern value="[A-Z]([a-z\s])+"/>
+                                    </xs:restriction>
+                                    </xs:simpleType>
+                                    </xs:element>
+                                </xs:all>
+                              </xs:complexType>
+                            </xs:element>
+
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+
+                  </xs:sequence>
+                  <xs:attribute name="dia" type="datacorrecta"/>
+                </xs:complexType>
+
+              </xs:element>
+
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="portalweb" type="url"/>
+
+      <xs:attribute name="darreraActualitzacio" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

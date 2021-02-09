@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<receta>
+   <nombre>Cordero al horno</nombre>
+   <foto> https://s1.dmcdn.net/v/Ih1QH1Sq3aWBJjKd6/x1080/imagCarn.gif</foto>
+   <comensales unidad="personas">4</comensales>
+   <ingredientes>
+      <ingrediente cantidad="2">Paletillas de cordero</ingrediente>
+      <ingrediente cantidad="3">Patatas</ingrediente>
+      <ingrediente cantidad="1">Cebolla</ingrediente>
+      <ingrediente cantidad="2">Dientes de ajo</ingrediente>
+      <ingrediente>Sal y pimienta</ingrediente>
+      <ingrediente>Aceite de oliva</ingrediente>
+   </ingredientes>
+   <proceso>
+      <paso numero="1">Lo primero es poner en una bandeja de horno la paletilla del lechazo. Después lo regamos con un vaso de agua. Lo salpimentamos y finalmente bañamos con un chorrito de aceite. Hay quién también echa vino blanco pero a mí me gusta que este asado sepa a lo que es. Al buen cordero lechal. Que ningún ingrediente fuerte le reste sabor. No obstante, si tú quieres puedes ponérselo. Después lo metemos en el horno a unos 230ºC y lo dejamos que se ase ahí alrededor de 35 minutos.</paso>
+      <paso numero="2">Mientras se hornea, pelamos la patata. Después la cortamos en rodajas de alrededor de un centímetro de grosor. Este tipo de corte de la patata es el que recibe el nombre de «panadera»</paso>
+      <paso numero="3">Pelamos los dientes de ajo y los fileteamos. Es decir lo cortamos también en rodajas finas</paso>
+      <paso numero="4">Hacemos lo propio con la cebolla. La pelamos y la cortamos en tiras. Reservamos toda la guarnición</paso>
+      <paso numero="5">Pasados los 35 minutos, cuando la paletilla de cordero esté parcialmente hecha, la retiramos del horno. La retiramos también de la bandeja y sobre ella ponemos toda la guarnición. Una vez esté colocada le ponemos su parte de sal. Encima ponemos de nuevo la paletilla de cordero lechal y volvemos a regar con otro vaso de agua. Salpimentamos y lo mojamos con otro chorrito de aceite. Después, vuelta al horno con él durante otra media hora, más o menos. Hasta que esté bien dorado.</paso>
+   </proceso>
+   </receta>

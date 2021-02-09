@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE llibres [
+<!ELEMENT llibres (llibre*)>
+<!ELEMENT llibre (titol,autors,editorial,dataDePublicacio,ISBN,numPagines)>
+<!ELEMENT autors (autor+)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT dataDePublicacio (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT numPagines (#PCDATA)>
+]>
+<llibres>
+   <llibre>
+      <titol>EL ENEMIGO CONOCE EL SISTEMA</titol>  
+      <autors>
+        <autor>MARTA PEIRANO</autor>
+      </autors>
+      <editorial>DEBATE</editorial>
+      <dataDePublicacio>2009</dataDePublicacio>
+      <ISBN>9788417636395</ISBN>
+      <numPagines>304</numPagines>
+    </llibre>
+    
+    <llibre>
+      <titol>CRONICAS DE LA ADOLESTREINTA. LA SEGUNDA EDAD DEL PAVO</titol>  
+      <autors>
+        <autor>LAURA SANTOLAYA DEL BURGO</autor>
+      </autors>
+      <editorial>AGUILAR</editorial>
+      <dataDePublicacio>2018</dataDePublicacio>
+      <ISBN>9788403515758</ISBN>
+      <numPagines>192</numPagines>
+    </llibre>
+    
+    <llibre>
+      <titol>DIME QUÉ COMES Y TE DIRÉ QUÉ BACTERIAS TIENES
+</titol>  
+      <autors>
+        <autor>BLANCA GARCIA-OREA</autor>
+      </autors>
+      <editorial>GRIJALBO</editorial>
+      <dataDePublicacio>2020</dataDePublicacio>
+      <ISBN>9788417752927</ISBN>
+      <numPagines>272</numPagines>
+    </llibre>
+    
+    <llibre>
+      <titol>NO ERES TU, SOY YO: QUE ME ACABO DE DAR CUENTA DE QUE ERES LO PEOR</titol>  
+      <autors>
+        <autor>PEDRITA PARKER</autor>
+      </autors>
+      <editorial>LUNWERG</editorial>
+      <dataDePublicacio>2017</dataDePublicacio>
+      <ISBN>9788416890262</ISBN>
+      <numPagines>140</numPagines>
+    </llibre>
+    
+    <llibre>
+      <titol>¿A QUÉ ESTÁS ESPERANDO?</titol>  
+      <autors>
+        <autor>MEGAN MAXWELL</autor>
+      </autors>
+      <editorial>PLANETA
+</editorial>
+      <dataDePublicacio>2020</dataDePublicacio>
+      <ISBN>9788408233350</ISBN>
+      <numPagines>672</numPagines>
+    </llibre>
+</llibres>
