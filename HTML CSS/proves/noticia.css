@@ -1,0 +1,28 @@
+/*
+•	Canvieu la mida de la font dels paràgrafs a 9 punts.
+•	Canvieu el color de fons a negre i el color de la lletra a blanc.
+•	Assigneu un “id” a un únic paràgraf i modifiqueu únicament l'estil d'aquest canviant el color de la font a vermell
+•	Creeu una classe nova i assigneu 2 paràgrafs a aquesta classe i canvieu l'estil del mateix modificant a negreta
+•	Afegiu una vora a la imatge de 5 px de color blanc (border:5px solid #fff)
+*/
+
+p {
+    font-size: 9;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+#vermell {
+    color: red
+}
+
+p.negreta {
+    font-weight: bold;
+}
+
+img {
+    border: 5px solid #fff
+}
