@@ -1,0 +1,39 @@
+#cap,
+#menu,
+#info,
+#peu {
+    position: fixed;
+    border: 1px solid black;
+}
+
+#cap {
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 1920px;
+    background: #0BB;
+}
+
+#menu {
+    top: 101px;
+    left: 0px;
+    height: 600px;
+    width: 150px;
+    background: #BB0;
+}
+
+#info {
+    top: 101px;
+    left: 150px;
+    height: 600px;
+    width: 1920px;
+    background: #909;
+}
+
+#peu {
+    top: 702px;
+    left: 0px;
+    height: 50px;
+    width: 1920px;
+    background: #CCC;
+}

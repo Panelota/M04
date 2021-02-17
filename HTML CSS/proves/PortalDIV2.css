@@ -1,0 +1,36 @@
+#cap,
+#peu {
+    border: 1px solid black;
+}
+
+#cap {
+    height: 100px;
+    width: 100%;
+    background: #BB0;
+}
+
+#menu {
+    float: left;
+    /* s'ajusta a l'esquerra de l'últim bloc */
+    height: 400px;
+    width: 20%;
+    background: #0BB;
+}
+
+#info {
+    float: left;
+    /* s'ajusta a l'esquerra de l'últim bloc */
+    height: 400px;
+    width: 80%;
+    background: #CCC;
+}
+
+#peu {
+    clear: both;
+    /* aquesta línia anula el "floating" d'aquest element 
+               evitant que es fiqui a la filera superior*/
+    height: 50px;
+    width: 100%;
+    background: black;
+    color: white;
+}
