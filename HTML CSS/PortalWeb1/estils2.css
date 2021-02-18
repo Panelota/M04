@@ -6,6 +6,9 @@
     border: 1px solid black;
 }
 
+body {font-family: 'Times New Roman';}
+.estil1 {text-align: justify}
+
 #cap {
     top: 0px;
     left: 5px;
@@ -18,15 +21,15 @@
     top: 101px;
     left: 5px;
     height: 750px;
-    width: 150px;
+    width: 210px;
     background: rgb(253, 214, 214);
 }
 
 #info {
     top: 101px;
-    left: 155px;
+    left: 215px;
     height: 750px;
-    width: 1760px;
+    width: 1700px;
     background: rgb(255, 228, 194);
 }
 

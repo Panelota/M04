@@ -1,0 +1,33 @@
+#cap, #peu{ 
+    border:1px solid black;
+     }
+body {font-family: 'Times New Roman';}
+.estil1 {text-align: justify}
+    #cap {
+    
+    height:100px;
+    width:100%;
+    background: rgb(253, 185, 120);
+    }
+    #menu {
+    
+    float:left;
+    height:580px;
+    width: 14%;
+    background:rgb(253, 214, 214);
+         
+    }
+    #info {
+    
+    float:left; 
+    height:580px;
+    width: 86%;
+    background:rgb(255, 228, 194);
+    }
+    #peu {
+    
+    clear:both; 
+    height:50px;
+    width:100%;
+    background:#CCC;
+    }
