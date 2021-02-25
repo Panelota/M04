@@ -19,7 +19,7 @@
 
     <div id="menu">
         <p>
-            <b>Seccions</b><br>
+            <h2>Seccions</h2><br>
             <ul class="sinpuntos">
                 <li><a href="index.html">Pàgina Principal</a></li>
                 <li><a href="centreimatges.html">El centre en imatges</a></li>
@@ -31,11 +31,11 @@
         </p>
     </div>
 
-    <div id="info">
+    <div id="info" class="estil1">
         <h1>Enquesta per alumnes</h1>
         <form action="programa.php" method="get">
 
-            <table cellpadding="4">
+            <table cellpadding="4" style="margin-left:57px;">
                 <tr>
                     <td> Nom i cognoms:</td>
                     <td><input type="text" name="nom"></td>
@@ -61,14 +61,14 @@
                 </tr>
                 <tr>
                     <td> Idioma per ser atès:</td>
-                    <td><select name="destinacio">
+                    <td><select name="Idioma">
                     <option value="-1">Indiferent</option>
                     <option value="cat">Català</option>
                     <option value="cas">Castellà</option>
                     <option value="ang">Anglès</option>
                     <option value="fra">Francès</option>
                     </select></td>
-                </tr>                
+                </tr>
                 <tr>
                     <td>Respon breument:</td>
                     <td><textarea name="variable" rows="10" cols="50">¿Perquè vols cursar aquests estudis? </textarea></td>
