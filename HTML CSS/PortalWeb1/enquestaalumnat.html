@@ -11,7 +11,7 @@
 
     <div id="cap">
         <div style="width: 20%; float:left;">
-            <img src="images/logo.png" width="100px" /></div>
+            &nbsp&nbsp<img src="images/logo.png" width="200px" /></div>
         <div style="width: 80%; text-align: center; float:left;">
             <h1>INS Nicolau Copèrnic</h1>
         </div>
@@ -20,7 +20,7 @@
     <div id="menu">
         <p>
             <b>Seccions</b><br>
-            <ul>
+            <ul class="sinpuntos">
                 <li><a href="index.html">Pàgina Principal</a></li>
                 <li><a href="centreimatges.html">El centre en imatges</a></li>
                 <li><a href="ciclesformatius.html">Cicles Formatius</a></li>
@@ -31,9 +31,55 @@
         </p>
     </div>
 
-    //text-decorate
+    <div id="info">
+        <h1>Enquesta per alumnes</h1>
+        <form action="programa.php" method="get">
 
-    <div id="info">informació enquestaalumnat</div>
+            <table cellpadding="4">
+                <tr>
+                    <td> Nom i cognoms:</td>
+                    <td><input type="text" name="nom"></td>
+                </tr>
+                <tr>
+                    <td> Contrasenya:</td>
+                    <td> <input type="password" name="contrasenya"></td>
+                </tr>
+                <tr>
+                    <td> Últims estudis cursats:</td>
+                    <td><input type="radio" name="curs" value="1"> Batxillerat<br>
+                        <input type="radio" name="curs" value="2"> Prova d'accés<br>
+                        <input type="radio" name="curs" value="3"> Cicle mig<br>
+                        <input type="radio" name="curs" value="4"> ESO<br>
+                        <input type="radio" name="curs" value="5"> Altres</td>
+                </tr>
+                <tr>
+                    <td> En quin cicle estàs interessat? <br>Pots marcar-ne més d'un</td>
+                    <td><input type="checkbox" name="moduls" value="M1">CFGM Sistemes microinformàtics i xarxes<br>
+                        <input type="checkbox" name="moduls" value="M2">CFGS Administració de sistemes informàtics en xarxa<br>
+                        <input type="checkbox" name="moduls" value="M3">CFGS Desenvolupament d'aplicacions web<br>
+                        <input type="checkbox" name="moduls" value="M4">CFGS Desenvolupament d'aplicacions multiplataforma</td>
+                </tr>
+                <tr>
+                    <td> Idioma per ser atès:</td>
+                    <td><select name="destinacio">
+                    <option value="-1">Indiferent</option>
+                    <option value="cat">Català</option>
+                    <option value="cas">Castellà</option>
+                    <option value="ang">Anglès</option>
+                    <option value="fra">Francès</option>
+                    </select></td>
+                </tr>                
+                <tr>
+                    <td>Respon breument:</td>
+                    <td><textarea name="variable" rows="10" cols="50">¿Perquè vols cursar aquests estudis? </textarea></td>
+                </tr>
+                <tr align="right">
+                    <td><input type="submit" value="Enviar dades"></td>
+                    <td><input type="reset" value="Esborrar dades"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
     <div id="peu">
         <table align="center" width=98%>
             <tr>
