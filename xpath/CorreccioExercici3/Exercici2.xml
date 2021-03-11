@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="exercici2.xsl"?>
+
+<matriu>
+    <fila>
+        <num>2</num>
+        <num>1</num>
+        <num>3</num>
+    </fila>
+    <fila>
+        <num>6</num>
+        <num>5</num>
+        <num>4</num>
+    </fila>
+    <fila>
+        <num>9</num>
+        <num>7</num>
+        <num>8</num>
+    </fila>
+</matriu>
