@@ -16,7 +16,13 @@
     <tr>
       <td><xsl:value-of select="titol"/></td>
       <td><xsl:value-of select="director"/></td>
-      <td><xsl:value-of select="foto"/></td>
+      <td>
+      <img>
+        <xsl:attribute name="SRC">
+          <xsl:value-of select="foto"/>
+        </xsl:attribute>
+      </img>
+      </td>
     </tr>
 
     </xsl:for-each>

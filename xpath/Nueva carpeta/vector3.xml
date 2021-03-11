@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="vector3.xsl"?>
+<numeros>
+<vector>
+    <num><img src="numeros/Dos.jpg"/></num>
+    <num><img src="numeros/Uno.jpg"/></num>
+    <num><img src="numeros/Tres.jpg"/></num>
+</vector>
+<vector>
+    <num><img src="numeros/Seis.jpg"/></num>
+    <num><img src="numeros/Cinco.jpg"/></num>
+    <num><img src="numeros/Cuatro.jpg"/></num>
+</vector>
+<vector>
+    <num><img src="numeros/Nueve.jpg"/></num>
+    <num><img src="numeros/Siete.jpg"/></num>
+    <num><img src="numeros/Ocho.jpg"/></num>
+</vector>
+</numeros>

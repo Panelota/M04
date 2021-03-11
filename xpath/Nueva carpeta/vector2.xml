@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="vector2.xsl"?>
+<numeros>
+<vector>
+    <num>2</num>
+    <num>1</num>
+    <num>3</num>
+</vector>
+<vector>
+    <num>6</num>
+    <num>5</num>
+    <num>4</num>
+</vector>
+<vector>
+    <num>9</num>
+    <num>7</num>
+    <num>8</num>
+</vector>
+</numeros>
