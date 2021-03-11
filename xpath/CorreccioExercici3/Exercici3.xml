@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="exercici3.xsl"?>
+
+<matriu>
+    <fila>
+        <num v="2">Dos.jpg</num>
+        <num v="3">Tres.jpg</num>
+        <num v="1">Uno.jpg</num>
+    </fila>
+    <fila>
+        <num v="6">Seis.jpg</num>
+        <num v="5">Cinco.jpg</num>
+        <num v="4">Cuatro.jpg</num>
+    </fila>
+    <fila>
+        <num v="9">Nueve.jpg</num>
+        <num v="7">Siete.jpg</num>
+        <num v="8">Ocho.jpg</num>
+    </fila>
+</matriu>
