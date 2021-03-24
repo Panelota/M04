@@ -12,11 +12,13 @@
         </tr>
         <xsl:for-each select="mondial/country">
           <xsl:if test="name='Andorra' or name='Portugal' or name='Spain'">
+         <xsl:for-each select="religions"> 
             <tr>
-              <td><xsl:value-of select="name"/></td>
-              <td><xsl:value-of select="religions"/></td>
-              <td><xsl:value-of select="religions/@percentage"/>%</td>
+              <td><xsl:value-of select="../name"/></td>
+              <td><xsl:value-of select="."/></td>
+              <td><xsl:value-of select="@percentage"/>%</td>
             </tr>
+            </xsl:for-each>
           </xsl:if>
         </xsl:for-each>
       </table>

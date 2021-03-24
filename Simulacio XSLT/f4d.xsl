@@ -13,12 +13,12 @@
         </tr>
         <xsl:for-each select="mondial/country">
         <xsl:sort select="@population" data-type="number" order="descending"/>
-          <xsl:if test= count("encompassed" = '1')>
+          <xsl:if test= "count(encompassed)>1 or count(border)>=10">
             <tr>
               <td><xsl:value-of select="name"/></td>
               <td><xsl:value-of select="@population"/></td>
-              <td><xsl:value-of select=count("encompassed")/></td>
-              <td><xsl:value-of select=count("border")/></td>
+              <td><xsl:value-of select="count(encompassed)"/></td>
+              <td><xsl:value-of select="count(border)"/></td>
             </tr>
           </xsl:if>
         </xsl:for-each>
